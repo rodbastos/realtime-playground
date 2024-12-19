@@ -121,7 +121,7 @@ def run_multimodal_agent(ctx: JobContext, participant: rtc.Participant):
         session.conversation.item.create(
             llm.ChatMessage(
                 role="user",
-                content="Please begin the interaction with the user in a manner consistent with your instructions.",
+                content="Comece a interação com uma entrevistador.",
             )
         )
         session.response.create()
